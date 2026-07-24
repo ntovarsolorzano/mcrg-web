@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="uploads/no-background-logo-mancomunidad-guayas.png">
+  <script src="./image-slot.js"></script>
+  <style>
+    body { margin: 0; background: #f6f8f6; }
+    a { color: #1c4a70; text-decoration: none; }
+    a:hover { color: #256f41; }
+    ::selection { background: #256f41; color: #ffffff; }
+  </style>
+</helmet>
+
+<header style="position:fixed; top:0; left:0; right:0; z-index:50; background:rgba(11,33,54,0.92); backdrop-filter:blur(10px); display:flex; align-items:center; justify-content:space-between; padding:16px clamp(20px,5vw,56px); border-bottom:1px solid rgba(255,255,255,0.1); box-sizing:border-box;">
+  <a href="Inicio.dc.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+    <div style="width:44px; height:44px; border-radius:50%; overflow:hidden; flex-shrink:0; position:relative;">
+      <img src="uploads/logo-mancomunidad-guayas.png" alt="Mancomunidad para la Cuenca del Río Guayas" style="position:absolute; width:65px; height:65px; left:-11px; top:-1px; display:block; max-width:none;">
+    </div>
+    <span style="display:flex; flex-direction:column; line-height:1.15;">
+      <span style="font-family:'Work Sans',sans-serif; font-size:0.92rem; font-weight:700; letter-spacing:0.01em; color:#1f7a45; text-transform:uppercase;">Mancomunidad</span>
+      <span style="font-family:'Work Sans',sans-serif; font-size:0.62rem; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.55); text-transform:uppercase;">Cuenca del Río Guayas</span>
+    </span>
+  </a>
+  <nav style="display:flex; gap:clamp(12px,2vw,26px); flex-wrap:wrap; align-items:center;">
+    <a href="#inicio" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:#ffffff; padding-bottom:4px; border-bottom:1px solid #4FCE83;">Inicio</a>
+    <a href="#quienes-somos" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Quiénes somos</a>
+    <a href="Noticias.dc.html" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Noticias</a>
+    <a href="Biblioteca.dc.html" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Biblioteca</a>
+    <a href="#eventos" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Eventos</a>
+    <a href="#observatorio" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">El Observatorio</a>
+    <a href="#contacto" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio" data-screen-label="Hero" style="position:relative; height:100vh; min-height:680px; display:flex; align-items:flex-end; overflow:hidden; background:#0b2136; box-sizing:border-box;">
+  <video autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" preload="auto" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
+    <source src="uploads/Guayas_River_Guayaquil_Ecuador_Toma_Favorite_no_audio_processed-956bbd1b.mp4" type="video/mp4">
+    Tu navegador no soporta video HTML5.
+  </video>
+  <div style="position:absolute; inset:0; background:{{ heroOverlay }};"></div>
+  <div style="position:relative; z-index:2; width:100%; max-width:1200px; margin:0 auto; padding:0 clamp(24px,5vw,64px) clamp(72px,10vh,120px); box-sizing:border-box;">
+    <div style="font-family: 'Work Sans',sans-serif; font-size: 4.00rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #9fd8b6; margin-bottom: 22px"><h1 style="text-transform: none; font-family: &quot;Work Sans&quot;, sans-serif; font-weight: 500; font-size: clamp(2.4rem, 5.2vw, 2.4rem); line-height: 1.1; letter-spacing: -0.01em; color: #9fd8b6; margin: 0px 0px 24px; max-width: 780px"><b>LA CUENCA DEL RÍO GUAYAS ES EL ACTIVO ESTRATÉGICO MÁS IMPORTANTE DEL ECUADOR</b></h1><h1 style="font-family: 'Newsreader',serif; font-weight: 500; font-size: clamp(2.4rem,5.2vw,4.0rem); line-height: 1.1; letter-spacing: -0.01em; color: #ffffff; margin: 0 0 24px; max-width: 780px"><span style="color: rgb(255, 255, 255); font-family: &quot;Work Sans&quot;, sans-serif; font-size: 74px; font-weight: 600; letter-spacing: 10.24px; text-transform: uppercase; width: 1031px; height: 517px">Mancomunidad para la Cuenca del Río Guayas<br></span></h1></div>
+    
+    <p style="font-family: 'Work Sans',sans-serif; font-size: clamp(1rem,1.4vw,1.40rem); line-height: 1.6; color: rgba(255,255,255,0.82); max-width: 52ch; margin: 0">Cotopaxi, Los Ríos, Cañar, Guayas, Chimborazo, Manabí, y Bolivar, unidas para recuperar y proteger la cuenca hidrográfica más importante del Ecuador y de América del Sur en la vertiente del Pacífico.</p>
+  </div>
+  <div style="position:absolute; bottom:28px; left:50%; transform:translateX(-50%); z-index:2; display:flex; flex-direction:column; align-items:center; gap:8px;">
+    <span style="font-family:'Work Sans',sans-serif; font-size:0.68rem; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.65);">Descubre más</span>
+    <span style="color:rgba(255,255,255,0.65); font-size:1.1rem; line-height:1;">↓</span>
+  </div>
+</section>
+
+<section data-screen-label="Banner Alianza" style="background:#ffffff; padding:clamp(56px,8vw,88px) 0 0; box-sizing:border-box;">
+  <img src="uploads/7-provincias-alta.png" alt="Mancomunidad para la Cuenca del Río Guayas — 7 provincias, gestión colectiva, desarrollo sostenible" style="width:100%; height:auto; display:block;">
+</section>
+
+<section id="quienes-somos" data-screen-label="Quienes Somos" style="background:#ffffff; padding:clamp(80px,10vw,128px) clamp(24px,5vw,64px); box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div style="display:flex; gap:clamp(32px,6vw,96px); flex-wrap:wrap; align-items:flex-start;">
+      <div style="flex:1 1 380px; min-width:280px;">
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#256f41; margin-bottom:16px;">Quiénes somos</div>
+        <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.8rem,3vw,2.5rem); color:#123350; margin:0 0 24px; line-height:1.15;">¿Qué es la Mancomunidad?</h2>
+        <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.75; color:#28353f; margin:0 0 20px;">La Mancomunidad para la Cuenca del Río Guayas (MCRG) es una alianza entre siete gobiernos provinciales —Guayas, Cañar, Manabí, Los Ríos, Bolívar, Chimborazo y Cotopaxi— que decidieron trabajar juntos para recuperar y proteger la cuenca hidrográfica más importante del Ecuador y de América del Sur en la vertiente del Océano Pacífico.</p>
+        <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.75; color:#28353f; margin:0;">Nace para gestionar la cuenca como un solo sistema ecológico, hídrico y productivo, superando los límites político-administrativos.</p>
+      </div>
+      <div style="flex:1 1 380px; min-width:280px;">
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#256f41; margin-bottom:16px;">Nuestros objetivos</div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr));">
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">01</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Restaurar el 25% de las áreas degradadas</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">02</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Reforestar 15.000 hectáreas</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">03</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Riego eficiente en el 40% de las áreas agrícolas</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">04</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Crear corredores ecológicos</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">05</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Recuperar humedales y manglares</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">06</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Impulsar infraestructura hídrica</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">07</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Promover turismo sostenible</span></div>
+          <div style="display:flex; gap:14px; padding:15px 0; border-bottom:1px solid rgba(18,51,80,0.12);"><span style="font-family:'Newsreader',serif; font-size:0.95rem; color:#256f41; font-weight:600; flex-shrink:0;">08</span><span style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.5; color:#28353f;">Fortalecer la investigación científica</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="importancia" data-screen-label="Importancia" style="background:#0b2136; padding:clamp(80px,10vw,120px) clamp(24px,5vw,64px); box-sizing:border-box; overflow:hidden;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#9fd8b6; margin-bottom:16px;">Por qué es importante</div>
+    <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.8rem,3vw,2.5rem); color:#ffffff; margin:0 0 48px;">La cuenca en cifras</h2>
+    <div style="overflow:hidden;">
+      <div style="display:flex; {{ statsTrackStyle }}">
+        <sc-for list="{{ stats }}" as="stat" hint-placeholder-count="6">
+          <div style="flex:0 0 100%; min-width:0; box-sizing:border-box; padding-right:clamp(24px,10vw,160px);">
+            <div style="font-family:'Newsreader',serif; font-weight:600; font-size:clamp(2.6rem,6vw,4.6rem); color:#ffffff; line-height:1.05; margin-bottom:20px;">{{ stat.big }}</div>
+            <div style="font-family:'Work Sans',sans-serif; font-size:clamp(1rem,1.6vw,1.2rem); line-height:1.6; color:rgba(255,255,255,0.75); max-width:56ch;">{{ stat.label }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+    <div style="display:flex; gap:10px; margin-top:16px;">
+      <sc-for list="{{ dots }}" as="dot" hint-placeholder-count="6">
+        <button onClick="{{ dot.onClick }}" style="{{ dot.style }}" aria-label="Ir a la siguiente cifra"></button>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section id="observatorio" data-screen-label="Observatorio" style="background:#f6f8f6; padding:clamp(80px,10vw,128px) clamp(24px,5vw,64px); box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; gap:clamp(32px,6vw,96px); flex-wrap:wrap-reverse; align-items:center;">
+    <div style="flex:1 1 420px; min-width:280px;">
+      <image-slot id="obs-visual" shape="rect" radius="4" placeholder="Captura del Observatorio (ArcGIS)" style="width:100%; aspect-ratio:4/3; display:block;"></image-slot>
+    </div>
+    <div style="flex:1 1 420px; min-width:280px;">
+      <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#256f41; margin-bottom:16px;">Monitoreo</div>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.8rem,3vw,2.5rem); color:#123350; margin:0 0 20px;">El Observatorio de la Cuenca</h2>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.75; color:#28353f; margin:0 0 32px;">Una plataforma de monitoreo geoespacial que reúne indicadores hídricos, ambientales y territoriales de la cuenca en un solo lugar, para apoyar decisiones basadas en evidencia.</p>
+      <a href="https://glxecuador.maps.arcgis.com/apps/dashboards/7c2b3feebb2d4a379396649ee45bbf76#" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:10px; font-family:'Work Sans',sans-serif; font-size:0.95rem; font-weight:600; color:#ffffff; background:#123350; padding:14px 28px;" style-hover="background:#0d2740;">Ingresar al Observatorio →</a>
+    </div>
+  </div>
+</section>
+
+<section id="noticias" data-screen-label="Noticias" style="background:#ffffff; padding:clamp(80px,10vw,128px) clamp(24px,5vw,64px); box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:20px; margin-bottom:56px;">
+      <div>
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#256f41; margin-bottom:16px;">Actualidad</div>
+        <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.8rem,3vw,2.5rem); color:#123350; margin:0;">Noticias</h2>
+      </div>
+      <a href="Noticias.dc.html" style="font-family:'Work Sans',sans-serif; font-size:0.95rem; font-weight:600; color:#123350;" style-hover="color:#256f41;">Ver todas las noticias →</a>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:40px;">
+      <a href="Noticias.dc.html#noticia-1" style="display:block; padding-top:24px; border-top:2px solid #123350; color:inherit;" style-hover="opacity:0.7;">
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; color:#256f41; font-weight:600; margin-bottom:12px;">28 de julio de 2026</div>
+        <div style="font-family:'Newsreader',serif; font-size:1.25rem; font-weight:500; color:#123350; line-height:1.35; margin-bottom:12px;">La primera Asamblea de la MCRG será el 28 de julio de 2026</div>
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.6; color:#4a5a63;">Un hito histórico marcará el inicio de una nueva etapa en la gestión ambiental y territorial de la cuenca.</div>
+      </a>
+      <a href="Noticias.dc.html#noticia-2" style="display:block; padding-top:24px; border-top:2px solid #123350; color:inherit;" style-hover="opacity:0.7;">
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; color:#256f41; font-weight:600; margin-bottom:12px;">7 de diciembre de 2025</div>
+        <div style="font-family:'Newsreader',serif; font-size:1.25rem; font-weight:500; color:#123350; line-height:1.35; margin-bottom:12px;">Firma de convenio con la CAF para la gestión ambiental de la cuenca</div>
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.6; color:#4a5a63;">Cooperación técnica no reembolsable a la Prefectura del Guayas para restaurar ecosistemas y fortalecer la gobernanza hídrica.</div>
+      </a>
+      <a href="Noticias.dc.html#noticia-3" style="display:block; padding-top:24px; border-top:2px solid #123350; color:inherit;" style-hover="opacity:0.7;">
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; color:#256f41; font-weight:600; margin-bottom:12px;">7 de noviembre de 2025</div>
+        <div style="font-family:'Newsreader',serif; font-size:1.25rem; font-weight:500; color:#123350; line-height:1.35; margin-bottom:12px;">Creación de la Mancomunidad para la Cuenca del Río Guayas</div>
+        <div style="font-family:'Work Sans',sans-serif; font-size:0.95rem; line-height:1.6; color:#4a5a63;">Siete prefectos firman el convenio que da origen a la MCRG para la recuperación de la cuenca.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="eventos" data-screen-label="Eventos" style="background:#ffffff; padding:clamp(80px,10vw,128px) clamp(24px,5vw,64px); box-sizing:border-box;">
+  <div style="max-width:900px; margin:0 auto;">
+    <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#256f41; margin-bottom:16px;">Línea de tiempo</div>
+    <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.8rem,3vw,2.5rem); color:#123350; margin:0 0 56px;">Eventos</h2>
+
+    <div style="display:flex; gap:28px; padding-bottom:44px; margin-bottom:44px; border-bottom:1px solid rgba(18,51,80,0.12);">
+      <div style="flex:0 0 130px;">
+        <div style="font-family:'Newsreader',serif; font-size:1.05rem; font-weight:600; color:#123350;">28 jul 2026</div>
+        <div style="display:inline-block; margin-top:8px; font-family:'Work Sans',sans-serif; font-size:0.65rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#256f41; background:rgba(37,111,65,0.1); padding:3px 8px;">Próximo</div>
+      </div>
+      <div style="flex:1 1 auto;">
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:1.3rem; color:#123350; margin:0 0 10px;">Primera Asamblea de la MCRG</h3>
+        <p style="font-family:'Work Sans',sans-serif; font-size:0.98rem; line-height:1.7; color:#4a5a63; margin:0;">Marca el inicio de una nueva etapa en la gestión ambiental y territorial de la Cuenca del Río Guayas.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:28px; padding-bottom:44px; margin-bottom:44px; border-bottom:1px solid rgba(18,51,80,0.12);">
+      <div style="flex:0 0 130px;"><div style="font-family:'Newsreader',serif; font-size:1.05rem; font-weight:600; color:#123350;">7 dic 2025</div></div>
+      <div style="flex:1 1 auto;">
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:1.3rem; color:#123350; margin:0 0 10px;">Convenio con la CAF</h3>
+        <p style="font-family:'Work Sans',sans-serif; font-size:0.98rem; line-height:1.7; color:#4a5a63; margin:0;">La CAF otorga un préstamo de cooperación técnica no reembolsable a la Prefectura del Guayas para formular una Estrategia de Gestión Ambiental Integral basada en gobernanza, diagnóstico, portafolio de intervenciones y financiamiento.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:28px;">
+      <div style="flex:0 0 130px;"><div style="font-family:'Newsreader',serif; font-size:1.05rem; font-weight:600; color:#123350;">7 nov 2025</div></div>
+      <div style="flex:1 1 auto;">
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:1.3rem; color:#123350; margin:0 0 10px;">Creación de la Mancomunidad</h3>
+        <p style="font-family:'Work Sans',sans-serif; font-size:0.98rem; line-height:1.7; color:#4a5a63; margin:0;">Los prefectos de Guayas, Cañar, Manabí, Los Ríos, Bolívar, Chimborazo y Cotopaxi firman el convenio que da origen a la MCRG para la recuperación de la cuenca.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" data-screen-label="Contacto" style="background:#0b2136; padding:clamp(80px,10vw,128px) clamp(24px,5vw,64px) clamp(64px,8vw,96px); box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto; text-align:center;">
+    <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#9fd8b6; margin-bottom:24px;">Contacto</div>
+    <p style="font-family:'Work Sans',sans-serif; font-size:1rem; color:rgba(255,255,255,0.7); margin:0 0 28px;">Unidad Ejecutora — Mancomunidad para la Cuenca del Río Guayas</p>
+    <a href="mailto:info@guayas.gob.ec" style="font-family:'Newsreader',serif; font-size:clamp(1.3rem,2.6vw,1.9rem); color:#ffffff; border-bottom:1px solid rgba(255,255,255,0.4); padding-bottom:4px;" style-hover="color:#9fd8b6; border-color:#9fd8b6;">info@guayas.gob.ec</a>
+  </div>
+</section>
+
+<footer style="background:#081826; padding:48px clamp(24px,5vw,64px) 32px; border-top:1px solid rgba(255,255,255,0.08); box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; flex-direction:column; gap:28px;">
+    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:24px;">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <img src="uploads/logo-solo-fondo-blanco.png" alt="Mancomunidad para la Cuenca del Río Guayas" style="width:36px; height:36px; border-radius:50%; object-fit:cover; display:block;">
+        <div>
+          <div style="font-family:'Work Sans',sans-serif; font-size:0.95rem; font-weight:700; letter-spacing:0.01em; color:#1f7a45; text-transform:uppercase;">Mancomunidad</div>
+          <div style="font-family:'Work Sans',sans-serif; font-size:0.7rem; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.55); text-transform:uppercase; margin-top:4px;">Cuenca del Río Guayas</div>
+        </div>
+      </div>
+      <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; color:rgba(255,255,255,0.6); line-height:1.9; text-align:right;">Guayas · Cañar · Manabí · Los Ríos · Bolívar · Chimborazo · Cotopaxi</div>
+    </div>
+    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.08); font-family:'Work Sans',sans-serif; font-size:0.8rem; color:rgba(255,255,255,0.45);">
+      <span>© 2026 Mancomunidad para la Cuenca del Río Guayas.</span>
+      <a href="mailto:info@guayas.gob.ec" style="color:rgba(255,255,255,0.6);" style-hover="color:#9fd8b6;">info@guayas.gob.ec</a>
+    </div>
+  </div>
+</footer>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;statsAutoplay&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Cifras (carrusel)&quot;},
+  &quot;statsIntervalSeconds&quot;: {&quot;editor&quot;: &quot;range&quot;, &quot;default&quot;: 5, &quot;min&quot;: 3, &quot;max&quot;: 10, &quot;step&quot;: 1, &quot;unit&quot;: &quot;s&quot;, &quot;tsType&quot;: &quot;number&quot;, &quot;section&quot;: &quot;Cifras (carrusel)&quot;},
+  &quot;heroOverlayStrength&quot;: {&quot;editor&quot;: &quot;range&quot;, &quot;default&quot;: 0.55, &quot;min&quot;: 0.2, &quot;max&quot;: 0.9, &quot;step&quot;: 0.05, &quot;tsType&quot;: &quot;number&quot;, &quot;section&quot;: &quot;Hero&quot;}
+}">
+const STATS = [
+  { big: '100%', label: 'del agua potable de Guayaquil proviene de la Cuenca del Río Guayas, a través del Daule.' },
+  { big: '34.500 km²', label: 'el 13% del territorio nacional. Aquí vive el 52% de la población de Ecuador: 8,7 millones de personas.' },
+  { big: '~50% del PIB', label: 'podría representar la actividad productiva conjunta de las subcuencas del Daule y el Babahoyo en el producto interno bruto del Ecuador.' },
+  { big: 'Motor agroproductivo', label: 'el principal territorio agroproductivo del país: banano, cacao, arroz, caña de azúcar y acuicultura.' },
+  { big: '30.000 millones de m³', label: 'de agua entrega la cuenca al océano Pacífico cada año: la más caudalosa de Sudamérica en esa vertiente.' },
+  { big: 'Seguridad nacional', label: 'de su equilibrio dependen la seguridad alimentaria, el agua, la competitividad agrícola y la resiliencia climática del Ecuador.' }
+];
+
+class Component extends DCLogic {
+  state = { statIndex: 0 };
+
+  _restartTimer() {
+    if (this._timer) clearInterval(this._timer);
+    const autoplay = this.props.statsAutoplay ?? true;
+    const seconds = this.props.statsIntervalSeconds ?? 5;
+    if (autoplay) {
+      this._timer = setInterval(() => {
+        this.setState(s => ({ statIndex: (s.statIndex + 1) % STATS.length }));
+      }, seconds * 1000);
+    }
+  }
+
+  componentDidMount() {
+    this._restartTimer();
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.statsAutoplay !== this.props.statsAutoplay || prevProps.statsIntervalSeconds !== this.props.statsIntervalSeconds) {
+      this._restartTimer();
+    }
+  }
+
+  componentWillUnmount() {
+    if (this._timer) clearInterval(this._timer);
+  }
+
+  goTo(i) {
+    this.setState({ statIndex: i });
+  }
+
+  renderVals() {
+    const overlay = this.props.heroOverlayStrength ?? 0.55;
+    const idx = this.state.statIndex;
+    return {
+      heroOverlay: `linear-gradient(180deg, rgba(7,18,29,${(0.15 + overlay * 0.2).toFixed(2)}) 0%, rgba(7,18,29,${(0.25 + overlay * 0.3).toFixed(2)}) 45%, rgba(6,15,24,${(0.7 + overlay * 0.25).toFixed(2)}) 100%)`,
+      statsTrackStyle: `transform: translateX(-${idx * 100}%); transition: transform .6s cubic-bezier(.65,0,.35,1);`,
+      stats: STATS,
+      dots: STATS.map((_, i) => ({
+        onClick: () => this.goTo(i),
+        style: `width:${i === idx ? 22 : 8}px; height:8px; border-radius:4px; background:${i === idx ? '#ffffff' : 'rgba(255,255,255,0.35)'}; transition:all .35s ease; cursor:pointer; border:none; padding:0;`
+      }))
+    };
+  }
+}
+
+</script>
+</body>
+</html>
