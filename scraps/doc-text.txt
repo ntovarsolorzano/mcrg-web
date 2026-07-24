@@ -1,0 +1,100 @@
+[] UNIDAD EJECUTORA
+[] 
+[] MANCOMUNIDAD
+[] PARA LA CUENCA DEL
+[] RÍO GUAYAS
+[] 
+[] “LA CUENCA DEL RÍO GUAYAS ES EL ACTIVO ESTRATÉGICO MÁS IMPORTANTE DEL ECUADOR”
+[] 
+[] 
+[] REPOSITORIO DIGITAL
+[] Contenidos Estratégicos para la creación del website de la MCRG
+[] 
+[] DOCUMENTO DE USO INTERNO
+[] CONFIDENCIAL
+[] 
+[] 
+[] Julio 23, 2026
+[] 
+[] Revisión 
+[] Fecha
+[] Descripción
+[] 1
+[] 23/07/2026
+[] Insumos website
+[] 
+[] 
+[] Elaborado por: A. Ortega, UE – MCRG.
+[] Revisado por: C. Molina, UE – MCRG
+[] 
+[] Documento #1
+[] 
+[] BANNER PRINCIPAL
+[] Utilizar la imagen adjunta con nombre: Banner principal
+[] 
+[] HOME PAGE
+[] Utilizar la imagen adjunta con nombre: Home page
+[] En la parte superior de esta imagen debe decir: MANCOMUNIDAD PARA LA CUENCA DEL RÍO GUAYAS
+[] 
+[] BOTON - INICIO
+[] ¿QUÉ ES LA MANCOMUNIDAD? 
+[] La Mancomunidad para la Cuenca del Río Guayas es una alianza entre siete gobiernos provinciales: Guayas, Cañar, Manabí, Los Ríos, Bolívar, Chimborazo, Cotopaxi que decidieron trabajar juntos para recuperar y proteger la cuenca hidrográfica más importante del Ecuador y de América del Sur en la vertiente al Océano Pacífico.
+[] La Mancomunidad nace para gestionar la Cuenca como un solo sistema ecológico, hídrico y productivo, superando los límites político-administrativos.
+[] Sus objetivos:
+[ListParagraph] restaurar 25% de áreas degradadas 
+[ListParagraph] reforestar 15.000 hectáreas 
+[ListParagraph] implementar riego eficiente en 40% de las áreas agrícolas 
+[ListParagraph] crear corredores ecológicos 
+[ListParagraph] recuperar humedales y manglares 
+[ListParagraph] impulsar infraestructura hídrica 
+[ListParagraph] promover turismo sostenible 
+[ListParagraph] fortalecer investigación científica
+[] 
+[] ¿POR QUÉ ES IMPORTANTE LA CUENCA DEL RÍO GUAYAS?
+[] DATOS GRUESOS (Esto puede mostrarse en una especie de Carrousel para que no sea estático)
+[ListParagraph] El 100% del agua potable para Guayaquil usa el agua de la Cuenca del Río Guayas (Daule).
+[ListParagraph] La Cuenca del Río Guayas tiene una extensión 34.500 kilómetros cuadrados, representando el 13% del territorio nacional (Superficie del Ecuador: 256.370 km²), pero viven aproximadamente el 52% de la población de Ecuador (8.7 millones de personas).
+[ListParagraph] Estudios señalan que la actividad productiva que se realiza en la Cuenca del Daule representa alrededor del 29% del producto interno bruto del país. Y si agregamos las actividades productivas de la Cuenca del Babahoyo es muy probable que la Cuenca del Río Guayas represente aproximadamente el 50% del producto interno bruto del Ecuador.
+[ListParagraph] La Cuenca constituye el principal territorio agroproductivo del país. De ella depende buena parte de la producción de banano, cacao, arroz, caña de azúcar, acuicultura y otras actividades que sostienen la economía nacional.
+[ListParagraph] Lo que ocurra con esta cuenca afecta directamente la seguridad alimentaria, la disponibilidad de agua, la competitividad agrícola y la resiliencia climática del Ecuador.
+[ListParagraph] 
+[ListParagraph] La Cuenca entrega al Océano Pacífico 30.000 millones de metros cúbicos de agua en promedio anual, de esto 12.000 millones de metros cúbicos corresponde a la Cuenca del Daule y 18.000 millones de metros cúbicos a la Cuenca del Babahoyo. Estos volúmenes de agua la convierten en la cuenca hidrográfica más importante de América del Sur en la vertiente al Océano Pacífico.
+[ListParagraph] 
+[] BOTON - BIBLIOTECA
+[] Debe enlazarse al siguiente link:
+[] https://guayas-my.sharepoint.com/:f:/g/personal/mcrg_repositorio_documental_guayas_gob_ec/IgCxuCNxpUykQoLhkqlUIprRASRkbhLyW7qKw27tTE81xrc?e=hUdsHz
+[] 
+[] BOTON - OBSERVATORIO
+[] Usar imagen adjunta con nombre: 
+[] Opt 1 - observatorio_cuenca_rio_guayas_alta_resolucion
+[] Opt 2 - observatorio_rio_guayas_alta_resolucion
+[] Nota: La que se adapte mejor a la realización del template
+[] Debe enlazarse al siguiente link:
+[] https://glxecuador.maps.arcgis.com/apps/dashboards/7c2b3feebb2d4a379396649ee45bbf76#
+[] 
+[] 
+[] 
+[] 
+[] 
+[] 
+[] APARTADO DE NOTICIAS
+[] NOTICIA 1 (Usar imagen adjunta con nombre: Imagen para Noticia 1)
+[] LA PRIMERA ASAMBLEA DE LA MANCUMUNIDAD PARA LA CUENCA DEL RÍO GUAYAS SERÁ EL 28 DE JULIO DEL 2026
+[NormalWeb] La Mancomunidad para la Cuenca del Río Guayas (MCRG) anunció la realización de su primera asamblea oficial el próximo 28 de julio de 2026, un hito histórico que marcará el inicio de una nueva etapa en la gestión ambiental y territorial de la cuenca hidrográfica más importante del país.
+[NormalWeb] La MCRG busca consolidar a la Cuenca del Río Guayas como EL ACTIVO ESTRATÉGICO MÁS IMPORTANTE DEL ECUADOR, promoviendo una visión compartida de desarrollo sostenible.
+[NormalWeb] 
+[] NOTICIA 2 (Usar imagen adjunta con nombre: Imagen para Noticia 2)
+[] FIRMA DE CONVENIO ENTRE LA MANCOMUNIDAD PARA LA CUENCA DEL RIO GUAYAS Y LA CAF
+[] La CAF otorgó un préstamo de Cooperación Técnica no Reembolsable a la Prefectura del Guayas. 
+[] El objetivo general es claro: formular una Estrategia de Gestión Ambiental Integral que permita restaurar ecosistemas, conservar el recurso hídrico, fortalecer la gobernanza territorial y diseñar una hoja de ruta financiera que garantice la sostenibilidad de las acciones.
+[] Los cuatro pilares de la estrategia
+[] Gobernanza: se plantea un modelo participativo e interinstitucional para la gestión integrada de la cuenca, en el marco de la Mancomunidad provincial.
+[] Diagnóstico integral: establecer la línea base sobre la situación actual de la cuenca y sus ecosistemas estratégicos, identificando problemáticas y oportunidades de restauración.
+[] Portafolio de intervenciones: priorizar proyectos estratégicos que aseguren la resiliencia de los ecosistemas frente al cambio climático.
+[] Estrategia de financiamiento: diseñar la hoja de ruta financiera que viabilice y sostenga el portafolio de proyectos priorizados.
+[NormalWeb] La iniciativa se presenta como una estrategia integral que busca restaurar los ecosistemas, conservar el agua, fortalecer la gobernanza y asegurar un futuro sostenible para la Cuenca del Río Guayas. La Unidad Ejecutora será la propia Mancomunidad para la Cuenca del Río Guayas, consolidando así el liderazgo territorial en la gestión ambiental y la articulación con los cooperantes internacionales.
+[] NOTICIA 3 (Usar imagen adjunta con nombre: Imagen para Noticia 3)
+[] CREACIÓN DE LA MANCOMUNIDAD PARA LA CUENCA DEL RÍO GUAYAS
+[] La firma del convenio de creación de la Mancomunidad para la Cuenca del Río Guayas se llevó a cabo el 7 de noviembre de 2025, cuando los prefectos de Guayas, Cañar, Manabí, Los Ríos, Bolívar, Chimborazo y Cotopaxi suscribieron un acuerdo para la recuperación de la cuenca del río Guayas. 
+[] La Mancomunidad tiene como objetivo articular acciones orientadas a la gestión integral y sostenible de los recursos hídricos, la protección ambiental y el fortalecimiento de las capacidades locales para la protección de la Cuenca del Río Guayas.
+[] 

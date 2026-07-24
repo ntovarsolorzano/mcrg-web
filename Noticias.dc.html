@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="uploads/no-background-logo-mancomunidad-guayas.png" />
+  <script src="./image-slot.js"></script>
+  <style>
+    body { margin: 0; background: #f6f8f6; }
+    a { color: #1c4a70; text-decoration: none; }
+    a:hover { color: #256f41; }
+    ::selection { background: #256f41; color: #ffffff; }
+  </style>
+</helmet>
+
+<header style="position:fixed; top:0; left:0; right:0; z-index:50; background:rgba(11,33,54,0.92); backdrop-filter:blur(10px); display:flex; align-items:center; justify-content:space-between; padding:16px clamp(20px,5vw,56px); border-bottom:1px solid rgba(255,255,255,0.1); box-sizing:border-box;">
+  <a href="Inicio.dc.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+    <div style="width:44px; height:44px; border-radius:50%; overflow:hidden; flex-shrink:0; position:relative;">
+      <img src="uploads/logo-mancomunidad-guayas.png" alt="Mancomunidad para la Cuenca del Río Guayas" style="position:absolute; width:65px; height:65px; left:-11px; top:-1px; display:block; max-width:none;" />
+    </div>
+    <span style="display:flex; flex-direction:column; line-height:1.15;">
+      <span style="font-family:'Work Sans',sans-serif; font-size:0.92rem; font-weight:700; letter-spacing:0.01em; color:#1f7a45; text-transform:uppercase;">Mancomunidad</span>
+      <span style="font-family:'Work Sans',sans-serif; font-size:0.62rem; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.55); text-transform:uppercase;">Cuenca del Río Guayas</span>
+    </span>
+  </a>
+  <nav style="display:flex; gap:clamp(12px,2vw,26px); flex-wrap:wrap; align-items:center;">
+    <a href="Inicio.dc.html" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Inicio</a>
+    <a href="Inicio.dc.html#quienes-somos" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Quiénes somos</a>
+    <a href="Noticias.dc.html" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:#ffffff; padding-bottom:4px; border-bottom:1px solid #4FCE83;">Noticias</a>
+    <a href="Biblioteca.dc.html" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Biblioteca</a>
+    <a href="Inicio.dc.html#eventos" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Eventos</a>
+    <a href="Inicio.dc.html#observatorio" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">El Observatorio</a>
+    <a href="Inicio.dc.html#contacto" style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:500; color:rgba(255,255,255,0.72);" style-hover="color:#ffffff;">Contacto</a>
+  </nav>
+</header>
+
+<section style="background:#0b2136; padding:152px clamp(24px,5vw,64px) 64px; box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div style="font-family:'Work Sans',sans-serif; font-size:0.9rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:#9fd8b6; margin-bottom:16px;">Actualidad</div>
+    <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(2.2rem,4.2vw,3.4rem); color:#ffffff; margin:0;">Noticias</h1>
+  </div>
+</section>
+
+<section style="background:#ffffff; padding:clamp(64px,8vw,96px) clamp(24px,5vw,64px); box-sizing:border-box;">
+  <div style="max-width:820px; margin:0 auto;">
+
+    <article id="noticia-1" style="padding:0 0 64px; border-bottom:1px solid rgba(18,51,80,0.12);">
+      <image-slot id="noticia-1-img" shape="rect" radius="4" fit="contain" placeholder="Imagen: primera Asamblea de la MCRG" style="width:100%; aspect-ratio:16/9; display:block; margin-bottom:32px; background:#ffffff;"></image-slot>
+      <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:600; color:#256f41; margin-bottom:14px;">28 de julio de 2026</div>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.5rem,2.6vw,2.1rem); color:#123350; line-height:1.25; margin:0 0 24px;">La primera Asamblea de la Mancomunidad para la Cuenca del Río Guayas será el 28 de julio de 2026</h2>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.8; color:#28353f; margin:0 0 20px;">La Mancomunidad para la Cuenca del Río Guayas (MCRG) anunció la realización de su primera asamblea oficial el próximo 28 de julio de 2026, un hito histórico que marcará el inicio de una nueva etapa en la gestión ambiental y territorial de la cuenca hidrográfica más importante del país.</p>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.8; color:#28353f; margin:0;">La MCRG busca consolidar a la Cuenca del Río Guayas como el activo estratégico más importante del Ecuador, promoviendo una visión compartida de desarrollo sostenible.</p>
+    </article>
+
+    <article id="noticia-2" style="padding:64px 0; border-bottom:1px solid rgba(18,51,80,0.12);">
+      <image-slot id="noticia-2-img" shape="rect" radius="4" fit="contain" placeholder="Imagen: firma de convenio con la CAF" style="width:100%; aspect-ratio:16/9; display:block; margin-bottom:32px; background:#ffffff;"></image-slot>
+      <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:600; color:#256f41; margin-bottom:14px;">7 de diciembre de 2025</div>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.5rem,2.6vw,2.1rem); color:#123350; line-height:1.25; margin:0 0 24px;">Firma de convenio entre la Mancomunidad para la Cuenca del Río Guayas y la CAF</h2>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.8; color:#28353f; margin:0 0 20px;">La CAF otorgó un préstamo de cooperación técnica no reembolsable a la Prefectura del Guayas. El objetivo es formular una Estrategia de Gestión Ambiental Integral que permita restaurar ecosistemas, conservar el recurso hídrico, fortalecer la gobernanza territorial y diseñar una hoja de ruta financiera que garantice la sostenibilidad de las acciones.</p>
+      <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:1.15rem; color:#123350; margin:32px 0 16px;">Los cuatro pilares de la estrategia</h3>
+      <div style="display:flex; flex-direction:column; gap:14px; margin-bottom:20px;">
+        <p style="font-family:'Work Sans',sans-serif; font-size:1rem; line-height:1.7; color:#28353f; margin:0;"><span style="font-weight:700; color:#123350;">Gobernanza — </span>modelo participativo e interinstitucional para la gestión integrada de la cuenca, en el marco de la Mancomunidad provincial.</p>
+        <p style="font-family:'Work Sans',sans-serif; font-size:1rem; line-height:1.7; color:#28353f; margin:0;"><span style="font-weight:700; color:#123350;">Diagnóstico integral — </span>línea base sobre la situación actual de la cuenca y sus ecosistemas estratégicos, identificando problemáticas y oportunidades de restauración.</p>
+        <p style="font-family:'Work Sans',sans-serif; font-size:1rem; line-height:1.7; color:#28353f; margin:0;"><span style="font-weight:700; color:#123350;">Portafolio de intervenciones — </span>proyectos estratégicos que aseguren la resiliencia de los ecosistemas frente al cambio climático.</p>
+        <p style="font-family:'Work Sans',sans-serif; font-size:1rem; line-height:1.7; color:#28353f; margin:0;"><span style="font-weight:700; color:#123350;">Estrategia de financiamiento — </span>hoja de ruta financiera que viabilice y sostenga el portafolio de proyectos priorizados.</p>
+      </div>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.8; color:#28353f; margin:0;">La iniciativa busca restaurar los ecosistemas, conservar el agua, fortalecer la gobernanza y asegurar un futuro sostenible para la Cuenca del Río Guayas. La Unidad Ejecutora será la propia Mancomunidad, consolidando el liderazgo territorial en la gestión ambiental y la articulación con los cooperantes internacionales.</p>
+    </article>
+
+    <article id="noticia-3" style="padding:64px 0 0;">
+      <image-slot id="noticia-3-img" shape="rect" radius="4" fit="contain" placeholder="Imagen: creación de la MCRG" style="width:100%; aspect-ratio:16/9; display:block; margin-bottom:32px; background:#ffffff;"></image-slot>
+      <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; font-weight:600; color:#256f41; margin-bottom:14px;">7 de noviembre de 2025</div>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:clamp(1.5rem,2.6vw,2.1rem); color:#123350; line-height:1.25; margin:0 0 24px;">Creación de la Mancomunidad para la Cuenca del Río Guayas</h2>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.8; color:#28353f; margin:0 0 20px;">La firma del convenio de creación de la Mancomunidad para la Cuenca del Río Guayas se llevó a cabo el 7 de noviembre de 2025, cuando los prefectos de Guayas, Cañar, Manabí, Los Ríos, Bolívar, Chimborazo y Cotopaxi suscribieron un acuerdo para la recuperación de la cuenca del río Guayas.</p>
+      <p style="font-family:'Work Sans',sans-serif; font-size:1.05rem; line-height:1.8; color:#28353f; margin:0;">La Mancomunidad tiene como objetivo articular acciones orientadas a la gestión integral y sostenible de los recursos hídricos, la protección ambiental y el fortalecimiento de las capacidades locales para la protección de la Cuenca del Río Guayas.</p>
+    </article>
+
+  </div>
+</section>
+
+<footer style="background:#081826; padding:48px clamp(24px,5vw,64px) 32px; border-top:1px solid rgba(255,255,255,0.08); box-sizing:border-box;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; flex-direction:column; gap:28px;">
+    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:24px;">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <img src="uploads/logo-solo-fondo-blanco.png" alt="Mancomunidad para la Cuenca del Río Guayas" style="width:36px; height:36px; border-radius:50%; object-fit:cover; display:block;" />
+        <div>
+          <div style="font-family:'Work Sans',sans-serif; font-size:0.95rem; font-weight:700; letter-spacing:0.01em; color:#9fd8b6; text-transform:uppercase;">Mancomunidad</div>
+          <div style="font-family:'Work Sans',sans-serif; font-size:0.7rem; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.55); text-transform:uppercase; margin-top:4px;">Cuenca del Río Guayas</div>
+        </div>
+      </div>
+      <div style="font-family:'Work Sans',sans-serif; font-size:0.85rem; color:rgba(255,255,255,0.6); line-height:1.9; text-align:right;">Guayas · Cañar · Manabí · Los Ríos · Bolívar · Chimborazo · Cotopaxi</div>
+    </div>
+    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.08); font-family:'Work Sans',sans-serif; font-size:0.8rem; color:rgba(255,255,255,0.45);">
+      <span>© 2026 Mancomunidad para la Cuenca del Río Guayas.</span>
+      <a href="mailto:info@guayas.gob.ec" style="color:rgba(255,255,255,0.6);" style-hover="color:#9fd8b6;">info@guayas.gob.ec</a>
+    </div>
+  </div>
+</footer>
+
+</x-dc>
+</body>
+</html>
